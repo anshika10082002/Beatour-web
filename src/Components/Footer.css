@@ -1,0 +1,142 @@
+/* .footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    color: #555;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .phone {
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone-icon {
+    margin-right: 5px;
+  }
+  
+  .phone-number {
+    font-size: 14px;
+  }
+  
+  .feedback-form {
+    margin-bottom: 10px;
+  }
+  
+  .feedback-form input {
+    width: 200px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .feedback-form button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-text {
+    font-size: 12px;
+  }
+   */
+
+
+
+
+
+   /*------------2nd correct --------------------*/
+   .footer {
+    background-color: #cdc1c1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #555;
+    font-size: 20px;
+  }
+  
+ footer h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+ }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  
+  .left-icons {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .right-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .phone-icon,
+  .social-icons a {
+    font-size: 30px;
+  }
+  
+  .social-icons a.instagram-icon {
+    color: #C13584; /* Change the color of the Instagram icon */
+  }
+  .feedback-form {
+    margin-bottom: 15px;
+    border: none;
+  }
+  
+  .feedback-form h4 {
+    margin-bottom: 15px;
+  }
+  
+  .feedback-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    /* border-radius: 8px; */
+    /* border:solid rgb(35, 34, 34); */
+  }
+  
+  .feedback-form button {
+    padding: 10px 15px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .footer-text {
+    font-size: 12px;
+  }
+  
+  
+  /*----------------------------------------------*/
+
+
+  
+  

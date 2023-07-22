@@ -1,0 +1,57 @@
+/* .heading{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    border-radius: 50%;
+    width: 200px; /* Adjust the width as needed */
+    /* height: 200px; Adjust the height as needed */
+/* } */
+/* .content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px
+} */ 
+/*--------------------------to make responsive -------------------------*/
+#services-section {
+    background-color: #dbd6d6; /* Replace with your desired background color */
+    padding: 20px 0; /* Adjust the padding as needed */
+  }
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    text-align: center;
+
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .service-name {
+    text-align: center;
+    font-size:16px;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  

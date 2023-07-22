@@ -1,0 +1,36 @@
+/* Waxing.css */
+
+.card-items-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  
+  .card {
+    width: 18rem;
+  }
+  
+  .card-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card-title {
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .card-button {
+    margin-top: 10px;
+  }
+  
