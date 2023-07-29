@@ -6,10 +6,33 @@ import Image from 'react-bootstrap/Image';
 import image1 from '../images/img1.jpg'
 import image2 from '../images/img2.jpg'
 import image3 from '../images/img3.jpg'
+import axios from "axios"
+import Packages from '../ServiceItems/Packages';
 //  import Waxing from '../ServiceItems/Waxing';
 import './Services.css'
+import { useState ,useEffect} from 'react';
+
+
+
+
 
 function Services() {
+   const[cards,setCards]= useState([])
+
+     useEffect((a)=>{
+
+        axios.get(`http://localhost:3001/getServices/64c4b63394685dbfbef4b5fa`)
+         .then((res) =>{
+            
+    setCards(res.data.data.service_items)
+    console.log(cards)
+    window.location.replace("/packages")
+      }).catch((err) => {
+
+    console.log(err)
+    })
+    })
+
   return (
     <>
     <div id="services-section">
@@ -19,14 +42,16 @@ function Services() {
         {/* <Col xs={6} md={4}>
           <Image src={image1} rounded />
         </Col> */}
-        
+        <div onClick={()=>("64c4b63394685dbfbef4b5fa")}>
+            
          <Col xs={4} md={4}>
          <NavLink to="/packages">
           <Image src={image1} className='img'roundedCircle />
-          <h3  className="service-name"> PACKAGES</h3>
+          <h3  className="service-name"> PACKAGES1</h3>
           </NavLink>
         </Col>
-
+        </div>
+        <Packages cards={cards}/>
          <Col xs={4} md={4}>
          <NavLink to="/waxing">
           <Image src={image2} className='img' roundedCircle />
@@ -135,5 +160,6 @@ function Services() {
   );
 
 }
+
 
 export default Services;

@@ -30,7 +30,7 @@ function App() {
   
     <Navbar/>
     {/* <Slider/> */}
-   
+
     <Routes>
 <Route  path="/"  element={<Home/>}/>
 <Route  path="/services"  element={<Services/>}/>

@@ -13,7 +13,12 @@
     align-items: center;
     gap:40px
 } */ 
+
+
+/*perfect one*/
 /*--------------------------to make responsive -------------------------*/
+
+
 #services-section {
     background-color: #dbd6d6; /* Replace with your desired background color */
     padding: 20px 0; /* Adjust the padding as needed */
@@ -46,6 +51,7 @@
     text-align: center;
     font-size:16px;
     text-decoration: none;
+    color: rgba(138, 33, 236, 0.849);
   }
   
   @media (max-width: 768px) {

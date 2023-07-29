@@ -1,11 +1,11 @@
-//  import Slider from "../Components/Slider"
+  import Slider from "../Components/Slider"
 import React from 'react'
 import Services from '../Components/Services'
 
 function Home(){
     return(
         <>
-        {/* <Slider/> */}
+        <Slider/>
         <Services/>
         {/* <p>home</p> */}
         </>
